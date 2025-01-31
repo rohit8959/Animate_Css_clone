@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+#section{
+    background-color: #FCE5CD;
+    height: 100vh;
+    width: calc(100% - 230px);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+#logo{
+    font-size: 50px;
+    margin: 8px 8px;
+}
+#sub{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#nav{
+    height: 100vh;
+    width: 230px;
+    background-color: #F7D7B5;
+    padding: 25px 24px;
+
+    
+}
+#title{
+    color: #351C75;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+#discription{
+    color: #E69138;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#nav h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    
+   
+}
+#list1, #list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   
+}
+#list1 button, #list2 button{
+    
+    background: transparent;
+    border: none;
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#animation-type2{
+    margin-top: 30px;
+}
+#modeBtn{
+    border: none;
+    background: transparent;
+    margin-bottom: 30px;
+   font-size: 40px;
+   color: #4672FE;
+}
